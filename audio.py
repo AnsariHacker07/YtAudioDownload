@@ -26,7 +26,11 @@ def progress_hook(d):
 
 if __name__ == "__main__":
     url = input("Enter the YouTube video URL: ")
-    output_path = input("Enter the download directory: ")
+    output_path = input("Enter the download directory (press Enter for default: /storage/emulated/0/): ")
+
+    # Set default download path if no input is provided
+    if output_path.strip() == "":
+        output_path = "/storage/emulated/0/"
 
     # Ensure the output directory exists
     if not os.path.exists(output_path):
@@ -51,4 +55,3 @@ if __name__ == "__main__":
 
     # Download the audio
     download_audio(url, output_path)
-    
