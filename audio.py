@@ -1,3 +1,34 @@
+
+print('''
+                              .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$$
+      :$$NWX!!:           .:!!!!!!XUWW$$$$$$$$$P
+      $$$$$##WX!:      .<!!!!UW$$$$"  $$$$$$$$#
+      $$$$$  $$$UX   :!!UW$$$$$$$$$   4$$$$$*
+      ^$$$B  $$$$\     $$$$$$$$$$$$   d$$R"
+        "*$bd$$$$      '*$$$$$$$$$$$o+#"
+        _
+     /\                        (_)
+    /  \   _ __  ___  __ _ _ __ _
+   / /\ \ | '_ \/ __|/ _` | '__| |
+  / ____ \| | | \__ \ (_| | |  | |
+ /_/    \_\_| |_|___/\__,_|_|  |_|
+
+
+Author   : Hacker Ansari
+Github : https://github.com/AnsariHacker07
+instagram : https://instagram.com/hacker_ansari_07
+Thank you for using this tool
+
+Management depends on vpn software. Please use it before running the tool
+
+           
+           """""""""""""""""""""""""""""""""""""""""" 
+''')
+
+
+
 import os
 import yt_dlp
 from tqdm import tqdm
